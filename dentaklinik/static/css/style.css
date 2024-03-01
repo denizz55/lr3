@@ -1,0 +1,26 @@
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.block_header{
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.block_header li{
+    display: inline;
+    padding-right: 20px;
+}
+.doctor_vrach{
+    width: 280px;
+}
+.main_block{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
