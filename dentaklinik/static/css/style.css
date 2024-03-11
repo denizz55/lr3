@@ -1,26 +1,131 @@
-.logo{
-    width: 60px;
-    height: 60px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.block_header{
-    background-color: #ffffff;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
+li {
+  list-style-type: none;
+}
+.logo__item {
+  display: flex;
+  align-items: flex-end;
 }
 
-.block_header li{
-    display: inline;
-    padding-right: 20px;
+.logo__item img {
+  width: 90px;
+  margin-bottom: -10px;
 }
-.doctor_vrach{
-    width: 280px;
+
+.logo__item p {
+  font-size: 14pt;
+  margin-left: -25px;
 }
-.main_block{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
+
+.header {
+  width: 100%;
+}
+.header__wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__menu nav ul {
+  display: flex;
+}
+.header__menu nav ul li {
+  list-style-type: none;
+  font-weight: 500;
+  margin-left: 25px;
+}
+.header__menu nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.header__menu nav ul li:nth-child(4) {
+  margin-left: 50px;
+}
+
+.wrapper {
+  width: 1170px;
+  margin: 100px auto;
+}
+
+.wrapper .main__block {
+  display: flex;
+}
+
+.main__text {
+  padding-left: 30px;
+}
+
+.main__oglav h1 {
+  font-size: 24pt;
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.main__oglav h1 span {
+  color: rgb(0, 140, 255);
+}
+
+.main__oglav h2 {
+  font-weight: 400;
+  padding-bottom: 25px;
+}
+.main__text hr {
+  width: 110px;
+  border-color: rgb(0, 140, 255);
+}
+.main__text p {
+  padding-top: 20px;
+}
+
+.uslugi table {
+  border-collapse: collapse;
+}
+
+.uslugi tr,
+.uslugi th,
+.uslugi td {
+  border: 1px solid rgb(94, 93, 93);
+}
+
+.uslugi th {
+  font-weight: 400;
+  color: rgb(94, 93, 93);
+}
+
+.uslugi th,
+.uslugi td {
+  width: 330px;
+  text-align: left;
+  padding: 5px;
+}
+
+.footer {
+  width: 100%;
+}
+
+.footer__wrapper {
+  width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text__footer {
+  margin-left: 32px;
+  width: 304px;
+}
+
+.footer__info {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
 }
